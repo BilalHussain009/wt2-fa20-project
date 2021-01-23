@@ -1,0 +1,103 @@
+.story-card--recirc {
+    margin: 40px auto 0 auto;
+    border-color: #C0D1D1;
+    border-right: 0;
+    border-left: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    width: 700px;
+    padding: 10px 0;
+    clear: both;
+    overflow: hidden;
+  }
+  .story-card--recirc a {
+    text-decoration: none;
+  }
+  .story-card--recirc__media {
+    display: inline;
+    float: left;
+    width: 340px;
+    height: 255px;
+    overflow: hidden;
+    margin-right: 30px;
+    position: relative;
+  }
+  .story-card--recirc__media a img {
+    position: relative;
+    top: -20%;
+    width: 340px;
+    transition: opacity, 0.7s;
+  }
+  .story-card--recirc__media a .social {
+    transition: opacity, 0.15s;
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+    right: 60px;
+    bottom: 8px;
+    border-radius: 50%;
+    background-color: #BD081C;
+    width: 40px;
+    height: 28px;
+    text-align: center;
+    padding: 12px 0 0 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+  }
+  .story-card--recirc__media a .social:hover {
+    background-color: #D40B22;
+  }
+  .story-card--recirc__media a .social--facebook {
+    background-color: #3B5999;
+    right: 8px;
+  }
+  .story-card--recirc__media a .social--facebook:hover {
+    background-color: #3E68C0;
+  }
+  .story-card--recirc__media a:hover .social {
+    opacity: 1;
+  }
+  .story-card--recirc__media a:hover img {
+    opacity: 0.7;
+  }
+  .story-card--recirc__body {
+    float: left;
+    width: 330px;
+    padding: 50px 0 0 0;
+  }
+  .story-card--recirc__body a {
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .story-card--recirc__body a:hover h1 {
+    color: #3D9982;
+  }
+  .story-card--recirc__body a:hover span {
+    color: #52CCAD;
+  }
+  .story-card--recirc__body h1 {
+    color: #3D4D4D;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 32px;
+    margin: 0 0 14px 0;
+  }
+  .story-card--recirc__body span {
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: #7C8A8A;
+  }
+  
+  h1{
+    font-family: sans-serif;
+
+  }
